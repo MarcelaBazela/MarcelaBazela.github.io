@@ -81,14 +81,14 @@ section {
     background-color: #2492b1;
     top: 80px;
     left: -100%;
-    text-align: left;
-    transition: all 0.5s;
     padding-top: 100px;
+    text-align: center;
+    transition: all 0.5s;
   }
   nav ul li {
     display: block;
-    margin: 50px 60px;
-    line-height: 20px;
+    margin: 50px 0px;
+    line-height: 30px;
   }
   nav ul li a {
     font-size: 20px;
@@ -104,4 +104,30 @@ section {
   #check:checked ~ ul {
     left: 0;
   }
+}
+
+.banner {
+  background-position: center center;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner .row h1 {
+  font-family: Avenir;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: 0 1.5rem;
+}
+
+.row-button {
+  background-color: #ea5b25;
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin: 0 2rem;
 }
